@@ -3,6 +3,10 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$/../.." />
+    <content url="file://$USER_HOME$/Unity/Hub/Editor/2019.3.10f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.2d.sprite/Editor" />
+    <content url="file://$USER_HOME$/Unity/Hub/Editor/2019.3.10f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.2d.tilemap/Editor" />
+    <content url="file://$USER_HOME$/Unity/Hub/Editor/2019.3.10f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor" />
+    <content url="file://$USER_HOME$/Unity/Hub/Editor/2019.3.10f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
