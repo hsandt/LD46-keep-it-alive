@@ -7,30 +7,23 @@ public class CharacterControl : MonoBehaviour
     /// Values in the input below min, in absolute value, will get dropped, and values
     /// at or above will be replaced with -1 or 1 (keeping the same sign as the original value).
     /// This is useful to convert stick input into D-pad-like input.
-    [Tooltip("Input binarization min threshold. Values below (in abs) are cut, values above clamped to -1 or +1.")]
-    public float inputMinThreshold = 0.125f;
+    [SerializeField, Tooltip("Input binarization min threshold. Values below (in abs) are cut, values above clamped to -1 or +1.")]
+    private float inputMinThreshold = 0.125f;
 
     /* State */
     private Vector2 m_MoveIntention;
     public Vector2 moveIntention { get { return m_MoveIntention; } }
 
-    private void Awake()
-    {
-    }
+	private void Start() {
+		Setup();
+	}
 
-    private void OnDestroy()
-    {
-    }
-    
-    public void OnEnable()
-    {
-    }
+	private void Setup()
+	{
+		m_MoveIntention = Vector2.zero;
+	}
 
-    public void OnDisable()
-    {
-    }
-
-    private void Update()    
+    private void Update()
     {
         Vector2 moveInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         m_MoveIntention = new Vector2(GetBinarizedValue(moveInput.x), GetBinarizedValue(moveInput.y));

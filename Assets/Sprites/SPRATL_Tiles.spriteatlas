@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SPRATL_Tiles
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: a8c7988367b583f5388334b2dbb2a289, type: 3}
+    totalSpriteSurfaceArea: 34080
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: c914e3f1fb8f14e91a86279cfdbf8580, type: 3}
+  - {fileID: 21300000, guid: e67a85c30844ad351bf6b1c81f9e4a6e, type: 3}
+  - {fileID: 21300000, guid: 4c446fc58d9c9100aac96e70dbee7d1d, type: 3}
+  - {fileID: 21300000, guid: 74cf51667bd8ed8ac9d42959ef568c59, type: 3}
+  - {fileID: 21300000, guid: 7013ce18ea4987ab28462614e1060696, type: 3}
+  - {fileID: 21300000, guid: 19b13f5ce8a6bf0e5ae229a66969e9cd, type: 3}
+  - {fileID: 21300000, guid: 9e96785e6e1f29475bea9fe267e20b1e, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - ground3
+  - ground2
+  - tourch_small
+  - flame_16by16
+  - fire_pit_unlight
+  - fire_pit_lightened_tiles
+  - walls
+  m_Tag: SPRATL_Tiles
+  m_IsVariant: 0

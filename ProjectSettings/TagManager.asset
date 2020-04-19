@@ -13,18 +13,18 @@ TagManager:
   - UI
   - 
   - 
+  - Background
+  - Ground
+  - Hole
+  - 
+  - Wall
   - 
   - 
+  - FireSource
+  - Fireball
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Character
   - 
   - 
   - 
@@ -40,4 +40,25 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1416186219
+    locked: 0
+  - name: Hole
+    uniqueID: 2028393661
+    locked: 0
+  - name: Ground
+    uniqueID: 3685837349
+    locked: 0
+  - name: GroundProp
+    uniqueID: 3283945463
+    locked: 0
+  - name: Wall
+    uniqueID: 3987519923
+    locked: 0
+  - name: WallProp
+    uniqueID: 2477796667
+    locked: 0
+  - name: Character
+    uniqueID: 1020027877
     locked: 0
