@@ -1,5 +1,7 @@
 ﻿// Fix for Sysroot + clang not found issue on Release Build on Linux
 // https://forum.unity.com/threads/unity-2019-3-linux-il2cpp-player-can-only-be-built-with-linux-error.822210/#post-5631169
+
+#if UNITY_EDITOR_LINUX
 using System;
 using System.Collections.Generic;
 
@@ -22,3 +24,4 @@ namespace UnityEditor.LinuxStandalone
         }
     }
 }
+#endif
