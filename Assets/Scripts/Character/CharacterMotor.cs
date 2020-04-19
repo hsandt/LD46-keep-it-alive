@@ -4,14 +4,18 @@ using UnityEngine;
 
 using CommonsHelper;
 
-[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Rigidbody2D), typeof(Animator))]
 public class CharacterMotor : MonoBehaviour
 {
+	private static readonly int WalkingParamHash = Animator.StringToHash("Walking");
+	private static readonly int DirectionParamHash = Animator.StringToHash("Direction");
+
 	/* Sibling components */
 	private Rigidbody2D rigidbody2d;
 	private Animator animator;
 	private CharacterControl characterControl;
-	
+	private CharacterSwing characterSwing;
+
 	/* Parameters */
 	[SerializeField, Tooltip("Character speed")]
 	private float speed = 2f;
@@ -24,6 +28,7 @@ public class CharacterMotor : MonoBehaviour
 		rigidbody2d = this.GetComponentOrFail<Rigidbody2D>();
 		animator = this.GetComponentOrFail<Animator>();
 		characterControl = this.GetComponentOrFail<CharacterControl>();
+		characterSwing = this.GetComponentOrFail<CharacterSwing>();
 	}
 
 	private void Start() {
@@ -37,20 +42,29 @@ public class CharacterMotor : MonoBehaviour
 
 	private void FixedUpdate ()
 	{
-		// we assume move intention coordinates are 0/1 are in old school games using D-pad
-		Vector2 moveIntention = characterControl.moveIntention;
+		Vector2 moveIntention = Vector2.zero;
+		
+		// character cannot move during Swing
+		if (!characterSwing.IsSwinging)
+		{
+			// we assume move intention coordinates are 0/1 are in old school games using D-pad
+			moveIntention = characterControl.moveIntention;
+		}
+		
+		// outside conditional block to make sure character stops after Swing
 		rigidbody2d.velocity = speed * moveIntention;
 
 		// even if character walks against a wall, show walking animation
 		bool isWalkingAnim = moveIntention != Vector2.zero;
 		
+		animator.SetBool(WalkingParamHash, isWalkingAnim);
+		
 		if (isWalkingAnim)
 		{
 			UpdateDirection(moveIntention);
+			
+			animator.SetInteger(DirectionParamHash, (int) m_Direction);
 		}
-
-		animator.SetBool("Walking", isWalkingAnim);
-		animator.SetInteger("Direction", (int) m_Direction);
 	}
 
 	private void UpdateDirection(Vector2 moveIntention)

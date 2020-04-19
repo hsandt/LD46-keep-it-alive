@@ -1,6 +1,8 @@
 using System;
 using UnityEngine;
 
+using CommonsHelper;
+
 public class CharacterControl : MonoBehaviour
 {
     /// Value at which the lower bound starts.
@@ -12,21 +14,26 @@ public class CharacterControl : MonoBehaviour
 
     /* State */
     private Vector2 m_MoveIntention;
-    public Vector2 moveIntention { get { return m_MoveIntention; } }
+    public Vector2 moveIntention => m_MoveIntention;
 
-	private void Start() {
+    private bool m_SwingIntention;
+
+    private void Start() {
 		Setup();
 	}
 
 	private void Setup()
 	{
 		m_MoveIntention = Vector2.zero;
+		m_SwingIntention = false;
 	}
 
     private void Update()
     {
         Vector2 moveInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         m_MoveIntention = new Vector2(GetBinarizedValue(moveInput.x), GetBinarizedValue(moveInput.y));
+
+        m_SwingIntention = Input.GetButton("Swing");
     }
 
     private float GetBinarizedValue(float value)
@@ -36,5 +43,10 @@ public class CharacterControl : MonoBehaviour
         // For analog input (stick), ceil any sufficient input coordinate to 1, independently from the other.
         // For digital input, this computation will preserve the binary value.
         return Mathf.Abs(value) > inputMinThreshold ? Mathf.Sign(value) : 0f;
+    }
+
+    public bool ConsumeSwingIntention()
+    {
+	    return ControlUtil.ConsumeBool(ref m_SwingIntention);
     }
 }
