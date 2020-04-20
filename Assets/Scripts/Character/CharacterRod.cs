@@ -89,6 +89,21 @@ public class CharacterRod : MonoBehaviour
                 LightOn();
             }
         }
+        else
+        {
+            // rod is lit, it can ignite via ignitors
+            // we don't check for triggers specifically, anyway all Ignitors should be triggers
+            int resultsCount = Physics2D.OverlapCircleNonAlloc(
+                (Vector2)swingHitbox.transform.position + swingHitbox.offset,
+                swingHitbox.radius, physicsResults,
+                Layers.IgnitorMask);
+            
+            for (int i = 0; i < resultsCount; i++)
+            {
+                var ignitor = physicsResults[i].GetComponentOrFail<Ignitor>();
+                ignitor.Ignite();
+            }
+        }
     }
 
     // Anim event callback
