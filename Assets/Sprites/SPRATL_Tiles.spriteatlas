@@ -43,74 +43,56 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: a8c7988367b583f5388334b2dbb2a289, type: 3}
-    totalSpriteSurfaceArea: 11970
+    totalSpriteSurfaceArea: 9888
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
-  - {fileID: 7676557796142847282, guid: 0353fe511cf251f419ec1b420db0e94a, type: 3}
-  - {fileID: 2882435428016978749, guid: 0353fe511cf251f419ec1b420db0e94a, type: 3}
   - {fileID: 21300000, guid: c914e3f1fb8f14e91a86279cfdbf8580, type: 3}
-  - {fileID: 1667476667342117222, guid: 2639ded2fc3ab2e40bc7f61221eede2a, type: 3}
-  - {fileID: 608612860266338385, guid: 2639ded2fc3ab2e40bc7f61221eede2a, type: 3}
-  - {fileID: -7454911784176862595, guid: 2639ded2fc3ab2e40bc7f61221eede2a, type: 3}
-  - {fileID: 8630481730897627108, guid: 2639ded2fc3ab2e40bc7f61221eede2a, type: 3}
-  - {fileID: -7346832383353079752, guid: cb49271320d009c48b6b70dc1aad1532, type: 3}
-  - {fileID: -8549963526538727675, guid: cb49271320d009c48b6b70dc1aad1532, type: 3}
-  - {fileID: 1720333929046782989, guid: cb49271320d009c48b6b70dc1aad1532, type: 3}
-  - {fileID: 4399451223307477128, guid: cb49271320d009c48b6b70dc1aad1532, type: 3}
   - {fileID: 21300000, guid: e67a85c30844ad351bf6b1c81f9e4a6e, type: 3}
   - {fileID: 21300000, guid: fa81ced329d918848ada56889b62f27c, type: 3}
   - {fileID: -399315558862516379, guid: 7e5a6d146dacc104c8536413ce2859ac, type: 3}
+  - {fileID: -8285418342541472712, guid: 7e5a6d146dacc104c8536413ce2859ac, type: 3}
   - {fileID: 6286737304687856437, guid: 7e5a6d146dacc104c8536413ce2859ac, type: 3}
   - {fileID: -5248438953416902759, guid: 7e5a6d146dacc104c8536413ce2859ac, type: 3}
   - {fileID: 6707076821581331841, guid: 7e5a6d146dacc104c8536413ce2859ac, type: 3}
-  - {fileID: -8285418342541472712, guid: 7e5a6d146dacc104c8536413ce2859ac, type: 3}
   - {fileID: 4502139265471238363, guid: 06103545e91111b44aea7fda0211e55f, type: 3}
   - {fileID: -5426890637462824778, guid: 06103545e91111b44aea7fda0211e55f, type: 3}
   - {fileID: 963163417668499948, guid: 06103545e91111b44aea7fda0211e55f, type: 3}
+  - {fileID: 21300000, guid: b09fd665628bc98fe89bb8948911d6ca, type: 3}
   - {fileID: 21300000, guid: 4c446fc58d9c9100aac96e70dbee7d1d, type: 3}
+  - {fileID: 21300000, guid: fb001f59fa7c1b88ebc56ec9baf73c85, type: 3}
   - {fileID: 21300000, guid: 1a0730aaecad67244ac158158678988a, type: 3}
   - {fileID: -5571727901857725750, guid: d758e90c6c9cd4443b91ded20518dff4, type: 3}
   - {fileID: 8901151402479179709, guid: d758e90c6c9cd4443b91ded20518dff4, type: 3}
   - {fileID: -3038670352470094586, guid: d758e90c6c9cd4443b91ded20518dff4, type: 3}
   - {fileID: 1698966228403393075, guid: d758e90c6c9cd4443b91ded20518dff4, type: 3}
-  - {fileID: 5415151572357427259, guid: 4c6d62adcce4e1f45aadb5645d580dd5, type: 3}
-  - {fileID: -4271712473192840387, guid: 4c6d62adcce4e1f45aadb5645d580dd5, type: 3}
-  - {fileID: -3293166932308445150, guid: 4c6d62adcce4e1f45aadb5645d580dd5, type: 3}
-  - {fileID: 2869972358528820150, guid: 4c6d62adcce4e1f45aadb5645d580dd5, type: 3}
   - {fileID: 21300000, guid: 9e96785e6e1f29475bea9fe267e20b1e, type: 3}
+  - {fileID: 21300000, guid: 9452b36f4f4b8fb6380a2a4a50a83597, type: 3}
+  - {fileID: -1061111669460303764, guid: 4f1d05df7e61a316a8bd25dc80a042a3, type: 3}
+  - {fileID: -4630052592829124664, guid: 4f1d05df7e61a316a8bd25dc80a042a3, type: 3}
   m_PackedSpriteNamesToIndex:
-  - Firepit_unlit_new_1
-  - Firepit_unlit_new_0
   - ground3
-  - sample_0
-  - sample_1
-  - sample_2
-  - sample_3
-  - fire_pit_lit_tiles_0
-  - fire_pit_lit_tiles_1
-  - fire_pit_lit_tiles_2
-  - fire_pit_lit_tiles_3
   - ground2
-  - fire_pit_unlit_whole
-  - wall_patch_and_corner_3
-  - wall_patch_and_corner_2
-  - wall_patch_and_corner_1
-  - wall_patch_and_corner_0
-  - wall_patch_and_corner_4
+  - fire_pit_unlit
+  - wall_patch_center
+  - wall_patch_inside_corner
+  - wall_patch_vertical
+  - wall_patch_horizontal
+  - wall_patch_outside_corner
   - small_flame_1
   - small_flame_0
   - small_flame_2
+  - cliff_side
   - tourch_small
+  - cliff_top
   - fire_pit_lit
   - flame_big_32X32_1
   - flame_big_32X32_0
   - flame_big_32X32_3
   - flame_big_32X32_2
-  - wall_patch_tiles_3
-  - wall_patch_tiles_2
-  - wall_patch_tiles_1
-  - wall_patch_tiles_0
   - walls
+  - clif_bottom
+  - pits_0
+  - pits_1
   m_Tag: SPRATL_Tiles
   m_IsVariant: 0
