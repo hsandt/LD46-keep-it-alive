@@ -1,43 +1,79 @@
 fileFormatVersion: 2
-guid: 2a7e8c5d86af47a4f918eb6234e04531
+guid: 0b78bbad179a69e4a897bd09b05fe60a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -779346364208406137
-    second: mage_swing_4dir_0
+      213: 165948318570641566
+    second: Main_character_Walk_0
   - first:
-      213: 5123040512559880358
-    second: mage_swing_4dir_1
+      213: -8606865065433132707
+    second: Main_character_Walk_1
   - first:
-      213: 7419006517034561386
-    second: mage_swing_4dir_2
+      213: 3841243316424358183
+    second: Main_character_Walk_2
   - first:
-      213: 1345578917993270507
-    second: mage_swing_4dir_3
+      213: 631781206659502705
+    second: Main_character_Walk_3
   - first:
-      213: -3641629282680193186
-    second: mage_swing_4dir_4
+      213: 968702676372641375
+    second: Main_character_Walk_4
   - first:
-      213: -9074210864497491306
-    second: mage_swing_4dir_5
+      213: 1132676719678851942
+    second: Main_character_Walk_5
   - first:
-      213: 6550637882601928069
-    second: mage_swing_4dir_6
+      213: -4456396560854875209
+    second: Main_character_Walk_6
   - first:
-      213: 2724455912438070487
-    second: mage_swing_4dir_7
+      213: -2388573450463823320
+    second: Main_character_Walk_7
   - first:
-      213: -8665880988910133334
-    second: mage_swing_4dir_8
+      213: 8768321026807371430
+    second: Main_character_Walk_8
   - first:
-      213: -8369168001580118531
-    second: mage_swing_4dir_9
+      213: -5507498735150491169
+    second: Main_character_Walk_9
   - first:
-      213: -7416105144693265219
-    second: mage_swing_4dir_10
+      213: 5814470817728082522
+    second: Main_character_Walk_10
   - first:
-      213: -4069830014229593931
-    second: mage_swing_4dir_11
+      213: 4275291100059782167
+    second: Main_character_Walk_11
+  - first:
+      213: -3736945785147149350
+    second: Main_character_Walk_12
+  - first:
+      213: -1972324823152538779
+    second: Main_character_Walk_13
+  - first:
+      213: 3289878584486990656
+    second: Main_character_Walk_14
+  - first:
+      213: -3177350605051097316
+    second: Main_character_Walk_15
+  - first:
+      213: 4249796283234506784
+    second: Main_character_Walk_16
+  - first:
+      213: 7803790787644248553
+    second: Main_character_Walk_17
+  - first:
+      213: -2659291924146581157
+    second: Main_character_Walk_18
+  - first:
+      213: 1301057649499086427
+    second: Main_character_Walk_19
+  - first:
+      213: -9172007067188694540
+    second: Main_character_Walk_20
+  - first:
+      213: 8806664587042392313
+    second: Main_character_Walk_21
+  - first:
+      213: 5704372512800654777
+    second: Main_character_Walk_22
+  - first:
+      213: 6499271925758992677
+    second: Main_character_Walk_23
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -78,7 +114,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
@@ -100,7 +136,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -112,7 +148,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -136,7 +172,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -147,253 +183,253 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mage_swing_4dir_0
+      name: Main_character_Walk_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 21
+        x: 0
+        y: 0
         width: 16
-        height: 31
-      alignment: 9
-      pivot: {x: 0.5, y: 0.06451613}
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 781ad546c943f25f0800000000000000
-      internalID: -779346364208406137
+      spriteID: e98f973dd119d4200800000000000000
+      internalID: 165948318570641566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mage_swing_4dir_1
+      name: Main_character_Walk_1
       rect:
         serializedVersion: 2
-        x: 90
-        y: 6
+        x: 16
+        y: 0
         width: 16
-        height: 41
-      alignment: 9
-      pivot: {x: 0.4375, y: 0.4390244}
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a811110432b81740800000000000000
-      internalID: 5123040512559880358
+      spriteID: d519329f2d54e8880800000000000000
+      internalID: -8606865065433132707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mage_swing_4dir_2
+      name: Main_character_Walk_2
       rect:
         serializedVersion: 2
-        x: 159
-        y: 21
+        x: 32
+        y: 0
         width: 16
-        height: 31
-      alignment: 9
-      pivot: {x: 0.5, y: 0.06451613}
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6f2722ae1b95f660800000000000000
-      internalID: 7419006517034561386
+      spriteID: 729315bc176de4530800000000000000
+      internalID: 3841243316424358183
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mage_swing_4dir_3
+      name: Main_character_Walk_3
       rect:
         serializedVersion: 2
-        x: 228
-        y: 22
+        x: 48
+        y: 0
         width: 16
-        height: 30
-      alignment: 9
-      pivot: {x: 0.5, y: 0.033333335}
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bec4e3095e47ca210800000000000000
-      internalID: 1345578917993270507
+      spriteID: 17215bef8a984c800800000000000000
+      internalID: 631781206659502705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mage_swing_4dir_4
+      name: Main_character_Walk_4
       rect:
         serializedVersion: 2
-        x: 297
-        y: 21
+        x: 64
+        y: 0
         width: 16
-        height: 47
-      alignment: 9
-      pivot: {x: 0.5, y: 0.04255319}
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5fbf2a2675567dc0800000000000000
-      internalID: -3641629282680193186
+      spriteID: f565926a3f5817d00800000000000000
+      internalID: 968702676372641375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mage_swing_4dir_5
+      name: Main_character_Walk_5
       rect:
         serializedVersion: 2
-        x: 366
-        y: 22
+        x: 80
+        y: 0
         width: 16
-        height: 30
-      alignment: 9
-      pivot: {x: 0.5, y: 0.033333335}
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69203a4cb4de11280800000000000000
-      internalID: -9074210864497491306
+      spriteID: 66b00d1b97318bf00800000000000000
+      internalID: 1132676719678851942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mage_swing_4dir_6
+      name: Main_character_Walk_6
       rect:
         serializedVersion: 2
-        x: 435
-        y: 21
+        x: 96
+        y: 0
         width: 16
-        height: 31
-      alignment: 9
-      pivot: {x: 0.5, y: 0.06451613}
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58574bc827a88ea50800000000000000
-      internalID: 6550637882601928069
+      spriteID: 7b309fb50f2b722c0800000000000000
+      internalID: -4456396560854875209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mage_swing_4dir_7
+      name: Main_character_Walk_7
       rect:
         serializedVersion: 2
-        x: 505
-        y: 21
-        width: 30
-        height: 28
-      alignment: 9
-      pivot: {x: 0.23333335, y: 0.071428575}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7dc7513b7363fc520800000000000000
-      internalID: 2724455912438070487
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mage_swing_4dir_8
-      rect:
-        serializedVersion: 2
-        x: 575
-        y: 21
+        x: 112
+        y: 0
         width: 16
-        height: 31
-      alignment: 9
-      pivot: {x: 0.5, y: 0.06451613}
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aaf5336872b9cb780800000000000000
-      internalID: -8665880988910133334
+      spriteID: 82abc2d1a151aded0800000000000000
+      internalID: -2388573450463823320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mage_swing_4dir_9
+      name: Main_character_Walk_8
       rect:
         serializedVersion: 2
-        x: 648
-        y: 20
+        x: 128
+        y: 0
         width: 16
-        height: 31
-      alignment: 9
-      pivot: {x: 0.5, y: 0.06451613}
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfd40485b0ebadb80800000000000000
-      internalID: -8369168001580118531
+      spriteID: 6a6117f64855fa970800000000000000
+      internalID: 8768321026807371430
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mage_swing_4dir_10
+      name: Main_character_Walk_9
       rect:
         serializedVersion: 2
-        x: 704
-        y: 20
-        width: 30
-        height: 28
-      alignment: 9
-      pivot: {x: 0.73333335, y: 0.071428575}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dbc6c91c9a3b41990800000000000000
-      internalID: -7416105144693265219
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mage_swing_4dir_11
-      rect:
-        serializedVersion: 2
-        x: 788
-        y: 20
+        x: 145
+        y: 0
         width: 16
-        height: 31
-      alignment: 9
-      pivot: {x: 0.5, y: 0.06451613}
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b04f993a2f0587c0800000000000000
-      internalID: -4069830014229593931
+      spriteID: fd91172941f6193b0800000000000000
+      internalID: -5507498735150491169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main_character_Walk_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52be8ff66621b050800000000000000
+      internalID: 5814470817728082522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main_character_Walk_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71cc372aa92e45b30800000000000000
+      internalID: 4275291100059782167
       vertices: []
       indices: 
       edges: []
