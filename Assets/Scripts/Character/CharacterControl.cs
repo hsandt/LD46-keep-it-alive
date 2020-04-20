@@ -33,7 +33,7 @@ public class CharacterControl : MonoBehaviour
         Vector2 moveInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         m_MoveIntention = new Vector2(GetBinarizedValue(moveInput.x), GetBinarizedValue(moveInput.y));
 
-        m_SwingIntention = Input.GetButton("Swing");
+        m_SwingIntention = Input.GetButtonDown("Swing");
     }
 
     private float GetBinarizedValue(float value)
