@@ -14,7 +14,7 @@ public class CharacterMotor : MonoBehaviour
 	private Rigidbody2D rigidbody2d;
 	private Animator animator;
 	private CharacterControl characterControl;
-	private CharacterSwing characterSwing;
+	private CharacterRod m_CharacterRod;
 
 	/* Parameters */
 	[SerializeField, Tooltip("Character speed")]
@@ -28,7 +28,7 @@ public class CharacterMotor : MonoBehaviour
 		rigidbody2d = this.GetComponentOrFail<Rigidbody2D>();
 		animator = this.GetComponentOrFail<Animator>();
 		characterControl = this.GetComponentOrFail<CharacterControl>();
-		characterSwing = this.GetComponentOrFail<CharacterSwing>();
+		m_CharacterRod = this.GetComponentOrFail<CharacterRod>();
 	}
 
 	private void Start() {
@@ -45,7 +45,7 @@ public class CharacterMotor : MonoBehaviour
 		Vector2 moveIntention = Vector2.zero;
 		
 		// character cannot move during Swing
-		if (!characterSwing.IsSwinging)
+		if (!m_CharacterRod.IsSwinging)
 		{
 			// we assume move intention coordinates are 0/1 are in old school games using D-pad
 			moveIntention = characterControl.moveIntention;
