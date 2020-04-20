@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: 06103545e91111b44aea7fda0211e55f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5426890637462824778
+    second: small_flame_0
+  - first:
+      213: 4502139265471238363
+    second: small_flame_1
+  - first:
+      213: 963163417668499948
+    second: small_flame_2
+  - first:
+      213: 8221349343966210498
+    second: small_flame_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -109,7 +121,70 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: small_flame_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 6
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b89227d7bfcfa4b0800000000000000
+      internalID: -5426890637462824778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_flame_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 6
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd050cffecfca7e30800000000000000
+      internalID: 4502139265471238363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_flame_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 6
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce938ca7608dd5d00800000000000000
+      internalID: 963163417668499948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
