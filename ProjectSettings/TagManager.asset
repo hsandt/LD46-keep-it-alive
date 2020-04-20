@@ -47,6 +47,9 @@ TagManager:
   - name: Hole
     uniqueID: 2028393661
     locked: 0
+  - name: Cliff
+    uniqueID: 428142319
+    locked: 0
   - name: Ground
     uniqueID: 3685837349
     locked: 0
