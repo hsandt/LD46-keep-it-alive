@@ -45,13 +45,23 @@ public class CharacterRod : MonoBehaviour
 
     private void FixedUpdate()
     {
+        // consume swing intention even if cannot swing now (no input buffering)
         if (characterControl.ConsumeSwingIntention())
         {
-            StartSwing();
+            // check if character can swing
+            if (CanSwing())
+            {
+               StartSwing();
+            }
         }
     }
 
-    private void StartSwing()
+	private bool CanSwing()
+	{
+        // character cannot interrupt Swing for another Swing (unlike Zelda GB)
+		return !m_IsSwinging;
+	}
+        private void StartSwing()
     {
         m_IsSwinging = true;
         

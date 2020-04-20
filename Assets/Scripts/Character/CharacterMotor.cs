@@ -44,8 +44,7 @@ public class CharacterMotor : MonoBehaviour
 	{
 		Vector2 moveIntention = Vector2.zero;
 		
-		// character cannot move during Swing
-		if (!m_CharacterRod.IsSwinging)
+		if (CanMove())
 		{
 			// we assume move intention coordinates are 0/1 are in old school games using D-pad
 			moveIntention = characterControl.moveIntention;
@@ -65,6 +64,12 @@ public class CharacterMotor : MonoBehaviour
 			
 			animator.SetInteger(DirectionParamHash, (int) m_Direction);
 		}
+	}
+
+	private bool CanMove()
+	{
+		// character cannot move during Swing
+		return !m_CharacterRod.IsSwinging;
 	}
 
 	private void UpdateDirection(Vector2 moveIntention)
