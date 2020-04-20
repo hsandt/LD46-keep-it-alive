@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: var2
+  m_Name: wall_patch_outside_corner
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 608612860266338385, guid: 2639ded2fc3ab2e40bc7f61221eede2a, type: 3}
+  m_Sprite: {fileID: 6707076821581331841, guid: 7e5a6d146dacc104c8536413ce2859ac,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

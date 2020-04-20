@@ -40,6 +40,8 @@ public class CharacterRod : MonoBehaviour
 
     private void Setup()
     {
+        // allows to work on Flame active in the editor, but deactivate on start
+        LightOff();
         m_IsSwinging = false;
     }
 
