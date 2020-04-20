@@ -53,51 +53,6 @@ TextureImporter:
   - first:
       213: 796009120716800927
     second: Main_Character_Idle_4dirl_0
-  - first:
-      213: -1163389196291637540
-    second: Main_Character_Idle_4dirl_1
-  - first:
-      213: 3781525659975224567
-    second: Main_Character_Idle_4dirl_2
-  - first:
-      213: 3734153391505397912
-    second: Main_Character_Idle_4dirl_3
-  - first:
-      213: -8140578812307451717
-    second: Main_Character_Idle_4dirl_4
-  - first:
-      213: -2037250895476919121
-    second: Main_Character_Idle_4dirl_5
-  - first:
-      213: 2274422892137365620
-    second: Main_Character_Idle_4dirl_6
-  - first:
-      213: -1622016861444537405
-    second: Main_Character_Idle_4dirl_7
-  - first:
-      213: 8163300063576546539
-    second: Main_Character_Idle_4dirl_8
-  - first:
-      213: 2603574201386513769
-    second: Main_Character_Idle_4dirl_9
-  - first:
-      213: 3299583775638557669
-    second: Main_Character_Idle_4dirl_10
-  - first:
-      213: -7431271851410887997
-    second: Main_Character_Idle_4dirl_11
-  - first:
-      213: 453610391623226488
-    second: Main_Character_Idle_4dirl_12
-  - first:
-      213: 2962507090705156291
-    second: Main_Character_Idle_4dirl_13
-  - first:
-      213: 8066458567922284502
-    second: Main_Character_Idle_4dirl_14
-  - first:
-      213: -6251244541620333511
-    second: Main_Character_Idle_4dirl_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -210,12 +165,12 @@ TextureImporter:
       name: Main_Character_Idle_4dirl_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 6
+        x: 0
+        y: 0
         width: 16
         height: 32
-      alignment: 9
-      pivot: {x: 0.5, y: 0.0625}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -231,12 +186,12 @@ TextureImporter:
       name: Main_Character_Idle_4dirl_1
       rect:
         serializedVersion: 2
-        x: 26
-        y: 6
+        x: 16
+        y: 0
         width: 16
         height: 32
-      alignment: 9
-      pivot: {x: 0.5, y: 0.0625}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -252,12 +207,12 @@ TextureImporter:
       name: Main_Character_Idle_4dirl_2
       rect:
         serializedVersion: 2
-        x: 47
-        y: 6
+        x: 32
+        y: 0
         width: 16
         height: 32
-      alignment: 9
-      pivot: {x: 0.5, y: 0.0625}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -273,12 +228,12 @@ TextureImporter:
       name: Main_Character_Idle_4dirl_3
       rect:
         serializedVersion: 2
-        x: 68
-        y: 6
+        x: 48
+        y: 0
         width: 16
         height: 32
-      alignment: 9
-      pivot: {x: 0.5, y: 0.0625}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -294,12 +249,12 @@ TextureImporter:
       name: Main_Character_Idle_4dirl_4
       rect:
         serializedVersion: 2
-        x: 89
-        y: 6
+        x: 64
+        y: 0
         width: 16
         height: 32
-      alignment: 9
-      pivot: {x: 0.5, y: 0.0625}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -315,12 +270,12 @@ TextureImporter:
       name: Main_Character_Idle_4dirl_5
       rect:
         serializedVersion: 2
-        x: 110
-        y: 6
+        x: 80
+        y: 0
         width: 16
         height: 32
-      alignment: 9
-      pivot: {x: 0.5, y: 0.0625}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -336,12 +291,12 @@ TextureImporter:
       name: Main_Character_Idle_4dirl_6
       rect:
         serializedVersion: 2
-        x: 131
-        y: 6
+        x: 96
+        y: 0
         width: 16
         height: 32
-      alignment: 9
-      pivot: {x: 0.5, y: 0.0625}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -357,12 +312,12 @@ TextureImporter:
       name: Main_Character_Idle_4dirl_7
       rect:
         serializedVersion: 2
-        x: 152
-        y: 6
+        x: 112
+        y: 0
         width: 16
         height: 32
-      alignment: 9
-      pivot: {x: 0.5, y: 0.0625}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -378,12 +333,12 @@ TextureImporter:
       name: Main_Character_Idle_4dirl_8
       rect:
         serializedVersion: 2
-        x: 173
-        y: 6
+        x: 128
+        y: 0
         width: 16
         height: 32
-      alignment: 9
-      pivot: {x: 0.5, y: 0.0625}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -399,12 +354,12 @@ TextureImporter:
       name: Main_Character_Idle_4dirl_9
       rect:
         serializedVersion: 2
-        x: 194
-        y: 6
+        x: 144
+        y: 0
         width: 16
         height: 32
-      alignment: 9
-      pivot: {x: 0.5, y: 0.0625}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -420,12 +375,12 @@ TextureImporter:
       name: Main_Character_Idle_4dirl_10
       rect:
         serializedVersion: 2
-        x: 215
-        y: 6
+        x: 160
+        y: 0
         width: 16
         height: 32
-      alignment: 9
-      pivot: {x: 0.5, y: 0.0625}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -441,12 +396,12 @@ TextureImporter:
       name: Main_Character_Idle_4dirl_11
       rect:
         serializedVersion: 2
-        x: 236
-        y: 6
+        x: 176
+        y: 0
         width: 16
         height: 32
-      alignment: 9
-      pivot: {x: 0.5, y: 0.0625}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -462,12 +417,12 @@ TextureImporter:
       name: Main_Character_Idle_4dirl_12
       rect:
         serializedVersion: 2
-        x: 257
-        y: 6
+        x: 192
+        y: 0
         width: 16
         height: 32
-      alignment: 9
-      pivot: {x: 0.5, y: 0.0625}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -483,12 +438,12 @@ TextureImporter:
       name: Main_Character_Idle_4dirl_13
       rect:
         serializedVersion: 2
-        x: 278
-        y: 6
+        x: 208
+        y: 0
         width: 16
         height: 32
-      alignment: 9
-      pivot: {x: 0.5, y: 0.0625}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -504,12 +459,12 @@ TextureImporter:
       name: Main_Character_Idle_4dirl_14
       rect:
         serializedVersion: 2
-        x: 299
-        y: 6
+        x: 224
+        y: 0
         width: 16
         height: 32
-      alignment: 9
-      pivot: {x: 0.5, y: 0.0625}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -525,12 +480,12 @@ TextureImporter:
       name: Main_Character_Idle_4dirl_15
       rect:
         serializedVersion: 2
-        x: 320
-        y: 6
+        x: 240
+        y: 0
         width: 16
         height: 32
-      alignment: 9
-      pivot: {x: 0.5, y: 0.0625}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
