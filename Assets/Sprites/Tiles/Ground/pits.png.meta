@@ -1,22 +1,13 @@
 fileFormatVersion: 2
-guid: 7e5a6d146dacc104c8536413ce2859ac
+guid: 4f1d05df7e61a316a8bd25dc80a042a3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6707076821581331841
-    second: wall_patch_outside_corner
+      213: -1061111669460303764
+    second: pits_0
   - first:
-      213: -5248438953416902759
-    second: wall_patch_horizontal
-  - first:
-      213: 6286737304687856437
-    second: wall_patch_vertical
-  - first:
-      213: -399315558862516379
-    second: wall_patch_center
-  - first:
-      213: -8285418342541472712
-    second: wall_patch_inside_corner
+      213: -4630052592829124664
+    second: pits_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -57,7 +48,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
@@ -99,18 +90,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -126,106 +105,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wall_patch_outside_corner
+      name: pits_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
+        x: 0
+        y: 0
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18d7c9765d2541d50800000000000000
-      internalID: 6707076821581331841
+      spriteID: c600cc20f8c2641f0800000000000000
+      internalID: -1061111669460303764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_patch_horizontal
+      name: pits_1
       rect:
         serializedVersion: 2
-        x: 18
-        y: 1
+        x: 16
+        y: 0
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 997334c449cc927b0800000000000000
-      internalID: -5248438953416902759
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wall_patch_vertical
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 1
-        width: 15
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 53bcd12254afe3750800000000000000
-      internalID: 6286737304687856437
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wall_patch_center
-      rect:
-        serializedVersion: 2
-        x: 52
-        y: 1
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56f86b86d98557af0800000000000000
-      internalID: -399315558862516379
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wall_patch_inside_corner
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 1
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83c4f4d5ae7440d80800000000000000
-      internalID: -8285418342541472712
+      spriteID: 8cf2b09a2bfbebfb0800000000000000
+      internalID: -4630052592829124664
       vertices: []
       indices: 
       edges: []

@@ -10,20 +10,29 @@ public class CharacterRod : MonoBehaviour
     private static readonly int StartSwingParamHash = Animator.StringToHash("StartSwing");
     private static readonly int SwingingParamHash = Animator.StringToHash("Swinging");
 
-    private static readonly Collider2D[] physicsResults = new Collider2D[2];
+    private static readonly Collider2D[] PhysicsResults = new Collider2D[2];
     
-    /* Sibling components */
-    private Animator animator;
-    private CharacterControl characterControl;
+    /* External references */
+
+    [Tooltip("Swing Audio Clip")]
+    public AudioClip swingSound;
     
     /* Children components */
+    
     [Tooltip("Swing Hitbox, used in Circle Overlap test")]
     public CircleCollider2D swingHitbox;
     
     [Tooltip("Rod Flame, activated when rod is lit")]
     public GameObject rodFlame;
     
+    /* Sibling components */
+    
+    private Animator animator;
+    private AudioSource audioSource;
+    private CharacterControl characterControl;
+    
     /* State */
+    
     private bool m_IsLit;
     private bool m_IsSwinging;
     public bool IsSwinging => m_IsSwinging;
@@ -32,6 +41,7 @@ public class CharacterRod : MonoBehaviour
     {
         animator = this.GetComponentOrFail<Animator>();
         characterControl = this.GetComponentOrFail<CharacterControl>();
+        audioSource = this.GetComponentOrFail<AudioSource>();
     }
 
     private void Start()
@@ -72,6 +82,9 @@ public class CharacterRod : MonoBehaviour
         // Transitions to Swing anim states must set Can Transition To Self
         animator.SetTrigger(StartSwingParamHash);
         animator.SetBool(SwingingParamHash, true);
+        
+        // audio
+        audioSource.PlayOneShot(swingSound);
     }
 
     private void SwingHit()
@@ -81,7 +94,7 @@ public class CharacterRod : MonoBehaviour
             // we don't check for triggers specifically, anyway all Fire Sources should be triggers
             int resultsCount = Physics2D.OverlapCircleNonAlloc(
                 (Vector2)swingHitbox.transform.position + swingHitbox.offset,
-                swingHitbox.radius, physicsResults,
+                swingHitbox.radius, PhysicsResults,
                 Layers.FireSourceMask);
             if (resultsCount > 0)
             {
@@ -95,12 +108,12 @@ public class CharacterRod : MonoBehaviour
             // we don't check for triggers specifically, anyway all Ignitors should be triggers
             int resultsCount = Physics2D.OverlapCircleNonAlloc(
                 (Vector2)swingHitbox.transform.position + swingHitbox.offset,
-                swingHitbox.radius, physicsResults,
+                swingHitbox.radius, PhysicsResults,
                 Layers.IgnitorMask);
             
             for (int i = 0; i < resultsCount; i++)
             {
-                var ignitor = physicsResults[i].GetComponentOrFail<Ignitor>();
+                var ignitor = PhysicsResults[i].GetComponentOrFail<Ignitor>();
                 ignitor.Ignite();
             }
         }
