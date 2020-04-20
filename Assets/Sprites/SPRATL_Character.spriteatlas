@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SPRATL_Character
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: fa01f0a94b5ed159d8e522ab0253caf0, type: 3}
+    totalSpriteSurfaceArea: 17392
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 3720831147095999897, guid: 0e52440082151290982f701e68b35af6, type: 3}
+  - {fileID: 7269270340336190511, guid: 0e52440082151290982f701e68b35af6, type: 3}
+  - {fileID: -544730367805110776, guid: 0e52440082151290982f701e68b35af6, type: 3}
+  - {fileID: -6443244280165432652, guid: 0e52440082151290982f701e68b35af6, type: 3}
+  - {fileID: 6012352781501112722, guid: 0e52440082151290982f701e68b35af6, type: 3}
+  - {fileID: -1184341029969132540, guid: 0e52440082151290982f701e68b35af6, type: 3}
+  - {fileID: 3521720134416829892, guid: 0e52440082151290982f701e68b35af6, type: 3}
+  - {fileID: -2619803369579962208, guid: 0e52440082151290982f701e68b35af6, type: 3}
+  - {fileID: -2491282600817501479, guid: 808bf7d31781d0d40960de2218892361, type: 3}
+  - {fileID: 7136045181386897817, guid: 808bf7d31781d0d40960de2218892361, type: 3}
+  - {fileID: -2322802912552448188, guid: 808bf7d31781d0d40960de2218892361, type: 3}
+  - {fileID: 6074542398589958784, guid: 808bf7d31781d0d40960de2218892361, type: 3}
+  - {fileID: 5153608851745454059, guid: 808bf7d31781d0d40960de2218892361, type: 3}
+  - {fileID: 3053264641632238456, guid: 808bf7d31781d0d40960de2218892361, type: 3}
+  - {fileID: 7576235054048550703, guid: 808bf7d31781d0d40960de2218892361, type: 3}
+  - {fileID: -7380705688066999231, guid: 808bf7d31781d0d40960de2218892361, type: 3}
+  - {fileID: -4000729648212832233, guid: 808bf7d31781d0d40960de2218892361, type: 3}
+  - {fileID: -2805048605775700022, guid: 808bf7d31781d0d40960de2218892361, type: 3}
+  - {fileID: 1752701466845991671, guid: 808bf7d31781d0d40960de2218892361, type: 3}
+  - {fileID: 7456745030132067436, guid: 808bf7d31781d0d40960de2218892361, type: 3}
+  - {fileID: 2535274911694580412, guid: 808bf7d31781d0d40960de2218892361, type: 3}
+  - {fileID: 147076715571910435, guid: 808bf7d31781d0d40960de2218892361, type: 3}
+  - {fileID: 761565940520722322, guid: 808bf7d31781d0d40960de2218892361, type: 3}
+  - {fileID: 6645025308764156195, guid: 808bf7d31781d0d40960de2218892361, type: 3}
+  - {fileID: -7416105144693265219, guid: 2a7e8c5d86af47a4f918eb6234e04531, type: 3}
+  - {fileID: -4069830014229593931, guid: 2a7e8c5d86af47a4f918eb6234e04531, type: 3}
+  - {fileID: -8369168001580118531, guid: 2a7e8c5d86af47a4f918eb6234e04531, type: 3}
+  - {fileID: -8665880988910133334, guid: 2a7e8c5d86af47a4f918eb6234e04531, type: 3}
+  - {fileID: -9074210864497491306, guid: 2a7e8c5d86af47a4f918eb6234e04531, type: 3}
+  - {fileID: -3641629282680193186, guid: 2a7e8c5d86af47a4f918eb6234e04531, type: 3}
+  - {fileID: 2724455912438070487, guid: 2a7e8c5d86af47a4f918eb6234e04531, type: 3}
+  - {fileID: 6550637882601928069, guid: 2a7e8c5d86af47a4f918eb6234e04531, type: 3}
+  - {fileID: 5123040512559880358, guid: 2a7e8c5d86af47a4f918eb6234e04531, type: 3}
+  - {fileID: -779346364208406137, guid: 2a7e8c5d86af47a4f918eb6234e04531, type: 3}
+  - {fileID: 1345578917993270507, guid: 2a7e8c5d86af47a4f918eb6234e04531, type: 3}
+  - {fileID: 7419006517034561386, guid: 2a7e8c5d86af47a4f918eb6234e04531, type: 3}
+  - {fileID: 21300000, guid: 216d4cdeb5ebe87919a46ff3a3d7d915, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - mage_attack_side_1
+  - mage_attack_side_0
+  - mage_attack_side_7
+  - mage_attack_side_6
+  - mage_attack_side_5
+  - mage_attack_side_4
+  - mage_attack_side_3
+  - mage_attack_side_2
+  - Main_Character_Idle_4dirl_11
+  - Main_Character_Idle_4dirl_10
+  - Main_Character_Idle_4dirl_13
+  - Main_Character_Idle_4dirl_12
+  - Main_Character_Idle_4dirl_15
+  - Main_Character_Idle_4dirl_14
+  - Main_Character_Idle_4dirl_2
+  - Main_Character_Idle_4dirl_3
+  - Main_Character_Idle_4dirl_0
+  - Main_Character_Idle_4dirl_1
+  - Main_Character_Idle_4dirl_6
+  - Main_Character_Idle_4dirl_7
+  - Main_Character_Idle_4dirl_4
+  - Main_Character_Idle_4dirl_5
+  - Main_Character_Idle_4dirl_8
+  - Main_Character_Idle_4dirl_9
+  - mage_swing_4dir_10
+  - mage_swing_4dir_11
+  - mage_swing_4dir_9
+  - mage_swing_4dir_8
+  - mage_swing_4dir_5
+  - mage_swing_4dir_4
+  - mage_swing_4dir_7
+  - mage_swing_4dir_6
+  - mage_swing_4dir_1
+  - mage_swing_4dir_0
+  - mage_swing_4dir_3
+  - mage_swing_4dir_2
+  - character_v6
+  m_Tag: SPRATL_Character
+  m_IsVariant: 0

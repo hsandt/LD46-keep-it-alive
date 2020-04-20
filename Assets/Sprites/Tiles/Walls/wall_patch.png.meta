@@ -1,31 +1,22 @@
 fileFormatVersion: 2
-guid: 0e52440082151290982f701e68b35af6
+guid: 7e5a6d146dacc104c8536413ce2859ac
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7269270340336190511
-    second: mage_attack_side_0
+      213: 6707076821581331841
+    second: wall_patch_center
   - first:
-      213: 3720831147095999897
-    second: mage_attack_side_1
+      213: -5248438953416902759
+    second: wall_patch_and_corner_1
   - first:
-      213: -2619803369579962208
-    second: mage_attack_side_2
+      213: 6286737304687856437
+    second: wall_patch_and_corner_2
   - first:
-      213: 3521720134416829892
-    second: mage_attack_side_3
+      213: -399315558862516379
+    second: wall_patch_and_corner_3
   - first:
-      213: -1184341029969132540
-    second: mage_attack_side_4
-  - first:
-      213: 6012352781501112722
-    second: mage_attack_side_5
-  - first:
-      213: -6443244280165432652
-    second: mage_attack_side_6
-  - first:
-      213: -544730367805110776
-    second: mage_attack_side_7
+      213: -8285418342541472712
+    second: wall_patch_and_corner_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -71,7 +62,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -88,7 +79,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,7 +91,19 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -112,7 +115,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,169 +126,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mage_attack_side_0
+      name: wall_patch_center
       rect:
         serializedVersion: 2
-        x: 2
-        y: 21
-        width: 13
-        height: 15
-      alignment: 9
-      pivot: {x: 0.61538464, y: 0.13333334}
+        x: 1
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f24850c3cd2a1e460800000000000000
-      internalID: 7269270340336190511
+      spriteID: 18d7c9765d2541d50800000000000000
+      internalID: 6707076821581331841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mage_attack_side_1
+      name: wall_patch_and_corner_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997334c449cc927b0800000000000000
+      internalID: -5248438953416902759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall_patch_and_corner_2
       rect:
         serializedVersion: 2
         x: 36
-        y: 21
-        width: 13
-        height: 15
-      alignment: 9
-      pivot: {x: 0.61538464, y: 0.13333334}
+        y: 1
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 995cdd7e63c03a330800000000000000
-      internalID: 3720831147095999897
+      spriteID: 53bcd12254afe3750800000000000000
+      internalID: 6286737304687856437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mage_attack_side_2
+      name: wall_patch_and_corner_3
       rect:
         serializedVersion: 2
-        x: 73
-        y: 21
-        width: 19
-        height: 15
-      alignment: 9
-      pivot: {x: 0.2631579, y: 0.13333334}
+        x: 52
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a0a0d637b694abd0800000000000000
-      internalID: -2619803369579962208
+      spriteID: 56f86b86d98557af0800000000000000
+      internalID: -399315558862516379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mage_attack_side_3
+      name: wall_patch_and_corner_4
       rect:
         serializedVersion: 2
-        x: 107
-        y: 21
-        width: 19
-        height: 15
-      alignment: 9
-      pivot: {x: 0.2631579, y: 0.13333334}
+        x: 69
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cd814aadc9afd030800000000000000
-      internalID: 3521720134416829892
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mage_attack_side_4
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 2
-        width: 13
-        height: 15
-      alignment: 9
-      pivot: {x: 0.61538464, y: 0.13333334}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 40405cfab10609fe0800000000000000
-      internalID: -1184341029969132540
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mage_attack_side_5
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 2
-        width: 13
-        height: 15
-      alignment: 9
-      pivot: {x: 0.61538464, y: 0.13333334}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 291a4bdfffa207350800000000000000
-      internalID: 6012352781501112722
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mage_attack_side_6
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 2
-        width: 19
-        height: 15
-      alignment: 9
-      pivot: {x: 0.7368421, y: 0.13333334}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4b20ca7077ff496a0800000000000000
-      internalID: -6443244280165432652
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mage_attack_side_7
-      rect:
-        serializedVersion: 2
-        x: 98
-        y: 2
-        width: 19
-        height: 15
-      alignment: 9
-      pivot: {x: 0.7368421, y: 0.13333334}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 806cb98dd9ab078f0800000000000000
-      internalID: -544730367805110776
+      spriteID: 83c4f4d5ae7440d80800000000000000
+      internalID: -8285418342541472712
       vertices: []
       indices: 
       edges: []
