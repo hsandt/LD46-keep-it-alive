@@ -6,6 +6,8 @@ using CommonsHelper;
 
 public class Ignitor : MonoBehaviour
 {
+    private static readonly int Lit = Animator.StringToHash("Lit");
+    
     /* Asset references */
     
     [Tooltip("Fire Pit Light On Audio Clip")]
@@ -13,27 +15,39 @@ public class Ignitor : MonoBehaviour
     
     /* External references */
 
-    [Tooltip("Flame to ignite")]
-    public GameObject flame;
+    [Tooltip("Animator of parent Fire Pit")]
+    public Animator firePitAnimator;
 
     /* Sibling components */
     
     private AudioSource audioSource;
-    private Collider2D collider2D;
+
+    /* Parameters */
+    [SerializeField, Tooltip("Fire Pit is lit when player enters the room (will see Ignition animation)")]
+    private bool igniteOnStart;
     
     private void Awake()
     {
         audioSource = this.GetComponentOrFail<AudioSource>();
-        collider2D = this.GetComponentOrFail<Collider2D>();
+    }
+
+    private void Start()
+    {
+        Setup();
+    }
+
+    private void Setup()
+    {
+        if (igniteOnStart)
+        {
+            Ignite();
+        }
     }
 
     public void Ignite()
     {
-        flame.SetActive(true);
-        
-        // disable collider to make sure we don't try to ignite the same ignitor later
-        // don't deactivate the whole game object, it would prevent ignition sound from playing
-        collider2D.enabled = false;
+        // lit fire pit via animator, it will activate Flame and disable Ignitor collider
+        firePitAnimator.SetBool(Lit, true);
 
         // audio
         audioSource.PlayOneShot(firePitLightOnSound);

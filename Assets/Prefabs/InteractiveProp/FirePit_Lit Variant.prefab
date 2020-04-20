@@ -7,11 +7,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1132249410515670270, guid: 374386f021ab59bd78a1f78114245fb8,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1219546921706918396, guid: 374386f021ab59bd78a1f78114245fb8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -72,28 +67,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: FirePit_Lit Variant
       objectReference: {fileID: 0}
-    - target: {fileID: 1219546921706918398, guid: 374386f021ab59bd78a1f78114245fb8,
-        type: 3}
-      propertyPath: m_Layer
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 1219546921706918398, guid: 374386f021ab59bd78a1f78114245fb8,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1219546921706918399, guid: 374386f021ab59bd78a1f78114245fb8,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 1a0730aaecad67244ac158158678988a,
         type: 3}
-    - target: {fileID: 3848174696414932037, guid: 374386f021ab59bd78a1f78114245fb8,
+    - target: {fileID: 3613972887601608284, guid: 374386f021ab59bd78a1f78114245fb8,
         type: 3}
-      propertyPath: m_IsActive
+      propertyPath: igniteOnStart
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6252338207907459503, guid: 374386f021ab59bd78a1f78114245fb8,
+    - target: {fileID: 3848174696414932037, guid: 374386f021ab59bd78a1f78114245fb8,
         type: 3}
       propertyPath: m_IsActive
       value: 1
