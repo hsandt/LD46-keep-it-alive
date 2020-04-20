@@ -24,7 +24,7 @@ public class Ignitor : MonoBehaviour
 
     /* Parameters */
     [SerializeField, Tooltip("Fire Pit is lit when player enters the room (will see Ignition animation)")]
-    private bool igniteOnStart;
+    private bool igniteOnStart = false;
     
     private void Awake()
     {
