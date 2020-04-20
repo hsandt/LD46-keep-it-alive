@@ -1,19 +1,7 @@
 fileFormatVersion: 2
-guid: 4c6d62adcce4e1f45aadb5645d580dd5
+guid: b90b21bf75200944cb0783ec4f18355d
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 2869972358528820150
-    second: wall_patch_tiles_0
-  - first:
-      213: -3293166932308445150
-    second: wall_patch_tiles_1
-  - first:
-      213: -4271712473192840387
-    second: wall_patch_tiles_2
-  - first:
-      213: 5415151572357427259
-    second: wall_patch_tiles_3
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -52,7 +40,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,91 +109,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: wall_patch_tiles_0
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 5
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6b3ec4187a034d720800000000000000
-      internalID: 2869972358528820150
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wall_patch_tiles_1
-      rect:
-        serializedVersion: 2
-        x: 27
-        y: 5
-        width: 15
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 22831bd7f125c42d0800000000000000
-      internalID: -3293166932308445150
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wall_patch_tiles_2
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 5
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d334cbc5324d7b4c0800000000000000
-      internalID: -4271712473192840387
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wall_patch_tiles_3
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 5
-        width: 15
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3033431aab762b40800000000000000
-      internalID: 5415151572357427259
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
