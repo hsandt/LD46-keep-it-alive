@@ -12,10 +12,13 @@ public class CharacterRod : MonoBehaviour
 
     private static readonly Collider2D[] PhysicsResults = new Collider2D[2];
     
-    /* External references */
+    /* Asset references */
 
     [Tooltip("Swing Audio Clip")]
     public AudioClip swingSound;
+    
+    [Tooltip("Rod Light On Audio Clip")]
+    public AudioClip rodLightOnSound;
     
     /* Children components */
     
@@ -132,6 +135,10 @@ public class CharacterRod : MonoBehaviour
     {
         m_IsLit = true;
         rodFlame.SetActive(true);
+        
+        // audio
+        // note we use the same source for all Character SFX, so this will cover the Swing sound (a few frames after)
+        audioSource.PlayOneShot(rodLightOnSound);
     }
     
     private void LightOff()

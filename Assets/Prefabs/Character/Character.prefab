@@ -449,6 +449,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   swingSound: {fileID: 8300000, guid: 3825c639d98018da89735be8bb537928, type: 3}
+  rodLightOnSound: {fileID: 8300000, guid: 17ea3d95fb94595e99549841f3abb448, type: 3}
   swingHitbox: {fileID: 1731786947454167123}
   rodFlame: {fileID: 5722152459522118481}
 --- !u!1 &8919130581071404524
