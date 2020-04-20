@@ -109,9 +109,17 @@ namespace UnityConstants
         /// </summary>
         public const int Hole = 10;
         /// <summary>
+        /// Index of layer 'GroundProp'.
+        /// </summary>
+        public const int GroundProp = 11;
+        /// <summary>
         /// Index of layer 'Wall'.
         /// </summary>
         public const int Wall = 12;
+        /// <summary>
+        /// Index of layer 'Ignitor'.
+        /// </summary>
+        public const int Ignitor = 14;
         /// <summary>
         /// Index of layer 'FireSource'.
         /// </summary>
@@ -158,9 +166,17 @@ namespace UnityConstants
         /// </summary>
         public const int HoleMask = 1 << 10;
         /// <summary>
+        /// Bitmask of layer 'GroundProp'.
+        /// </summary>
+        public const int GroundPropMask = 1 << 11;
+        /// <summary>
         /// Bitmask of layer 'Wall'.
         /// </summary>
         public const int WallMask = 1 << 12;
+        /// <summary>
+        /// Bitmask of layer 'Ignitor'.
+        /// </summary>
+        public const int IgnitorMask = 1 << 14;
         /// <summary>
         /// Bitmask of layer 'FireSource'.
         /// </summary>
