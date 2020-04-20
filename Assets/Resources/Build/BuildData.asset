@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91abe10e8f3ac78479c484efeb67e89d, type: 3}
   m_Name: BuildData
   m_EditorClassIdentifier: 
-  appName: LD46 - Keep it alive
+  appName: LD46 - Flame of Hope
   majorVersion: 0
   minorVersion: 1
   stageVersion: 0
