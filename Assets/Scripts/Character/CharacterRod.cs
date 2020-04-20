@@ -7,6 +7,7 @@ using CommonsHelper;
 
 public class CharacterRod : MonoBehaviour
 {
+    private static readonly int StartSwingParamHash = Animator.StringToHash("StartSwing");
     private static readonly int SwingingParamHash = Animator.StringToHash("Swinging");
 
     private static readonly Collider2D[] physicsResults = new Collider2D[2];
@@ -68,6 +69,8 @@ public class CharacterRod : MonoBehaviour
         m_IsSwinging = true;
         
         // animation-driven move (events will call back)
+        // Transitions to Swing anim states must set Can Transition To Self
+        animator.SetTrigger(StartSwingParamHash);
         animator.SetBool(SwingingParamHash, true);
     }
 
@@ -95,6 +98,7 @@ public class CharacterRod : MonoBehaviour
         
         animator.SetBool(SwingingParamHash, false);
     }
+
 
     private void LightOn()
     {
