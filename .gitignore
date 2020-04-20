@@ -76,3 +76,6 @@ crashlytics-build.properties
 
 # Generated files
 .idea/**/contentModel.xml
+
+# Custom
+/Screenshots/
