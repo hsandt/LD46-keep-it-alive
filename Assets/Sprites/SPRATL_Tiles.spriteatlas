@@ -43,11 +43,12 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: a8c7988367b583f5388334b2dbb2a289, type: 3}
-    totalSpriteSurfaceArea: 9888
+    totalSpriteSurfaceArea: 10400
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: c914e3f1fb8f14e91a86279cfdbf8580, type: 3}
+  - {fileID: 21300000, guid: de9c8bb20b7a5e58194ae3eea6d96082, type: 3}
   - {fileID: 21300000, guid: e67a85c30844ad351bf6b1c81f9e4a6e, type: 3}
   - {fileID: 21300000, guid: fa81ced329d918848ada56889b62f27c, type: 3}
   - {fileID: -399315558862516379, guid: 7e5a6d146dacc104c8536413ce2859ac, type: 3}
@@ -66,12 +67,14 @@ SpriteAtlas:
   - {fileID: 8901151402479179709, guid: d758e90c6c9cd4443b91ded20518dff4, type: 3}
   - {fileID: -3038670352470094586, guid: d758e90c6c9cd4443b91ded20518dff4, type: 3}
   - {fileID: 1698966228403393075, guid: d758e90c6c9cd4443b91ded20518dff4, type: 3}
+  - {fileID: 21300000, guid: 62ecc15c2192c6d6286196678e8389a6, type: 3}
   - {fileID: 21300000, guid: 9e96785e6e1f29475bea9fe267e20b1e, type: 3}
   - {fileID: 21300000, guid: 9452b36f4f4b8fb6380a2a4a50a83597, type: 3}
   - {fileID: -1061111669460303764, guid: 4f1d05df7e61a316a8bd25dc80a042a3, type: 3}
   - {fileID: -4630052592829124664, guid: 4f1d05df7e61a316a8bd25dc80a042a3, type: 3}
   m_PackedSpriteNamesToIndex:
   - ground3
+  - cliff_top_recoloured
   - ground2
   - fire_pit_unlit
   - wall_patch_center
@@ -90,6 +93,7 @@ SpriteAtlas:
   - flame_big_32X32_0
   - flame_big_32X32_3
   - flame_big_32X32_2
+  - new_ground
   - walls
   - clif_bottom
   - pits_0
