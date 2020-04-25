@@ -30,7 +30,15 @@ public class CharacterControl : MonoBehaviour
 
     private void Update()
     {
-        Vector2 moveInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        Vector2 moveInput = new Vector2(Input.GetAxis("Horizontal") + Input.GetAxis("HorizontalGamepad"),
+	        Input.GetAxis("Vertical") + Input.GetAxis("VerticalGamepad"));
+#if UNITY_STANDALONE_WIN
+        moveInput += new Vector2(Input.GetAxis("HorizontalGamepadWindows"), Input.GetAxis("VerticalGamepadWindows"));
+#elif UNITY_STANDALONE_OSX
+        moveInput += new Vector2(Input.GetAxis("HorizontalGamepadOSX"), Input.GetAxis("VerticalGamepadOSX"));
+#elif UNITY_STANDALONE_LINUX
+        moveInput += new Vector2(Input.GetAxis("HorizontalGamepadLinux"), Input.GetAxis("VerticalGamepadLinux"));
+#endif
         m_MoveIntention = new Vector2(GetBinarizedValue(moveInput.x), GetBinarizedValue(moveInput.y));
 
         m_SwingIntention = Input.GetButtonDown("Swing");
